@@ -2,4 +2,4 @@ from django.shortcuts import render
 
 # Create your views here.
 def welcome(request):
-    return HttpResponse('Welcome to Kigali Restaurants')
+    return render(request, 'welcome.html')
